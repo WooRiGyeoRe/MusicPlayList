@@ -27,8 +27,9 @@
 <br>
 
 ## 💣 트러블슈팅
-![image](https://github.com/WooRiGyeoRe/MusicPlayList/assets/144170214/166fc063-b3a3-40d2-bff6-6fe2d7bf6070) <br>
+![image](https://github.com/WooRiGyeoRe/MusicPlayList/assets/144170214/166fc063-b3a3-40d2-bff6-6fe2d7bf6070)  
 - 이유: 갑자기 localhost 로그인하라는 창이 뜨고, Ctrl + F5 (프로그램을 실행)이 안 됨.
+
 
 ![image](https://github.com/WooRiGyeoRe/MusicPlayList/assets/144170214/312671d9-9706-4fe1-89f9-3e34e86255d7)
 ![image](https://github.com/WooRiGyeoRe/MusicPlayList/assets/144170214/8b843b56-154b-47e1-8599-79ce93356bdc)
