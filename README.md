@@ -1,9 +1,9 @@
-# 📜 Music Play List (개인 프로젝트)
+# 📜 Music Play List 
 ![image](https://github.com/WooRiGyeoRe/MusicPlayList/assets/144170214/b17b868c-67cf-4c77-a98c-03e74900f708)
 
 <br>
 
-## 📅 UI/UX 연습 
+## 📅 UI/UX 연습 (개인)
 2024.04.07 ~ 04.08 
 
 <br>
