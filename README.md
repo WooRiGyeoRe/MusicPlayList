@@ -27,11 +27,12 @@
 <br>
 
 ## 💣 트러블슈팅
+- 문제: 갑자기 localhost 로그인하라는 창이 뜨고, Ctrl + F5 (프로그램을 실행)이 안 됨.
 ![image](https://github.com/WooRiGyeoRe/MusicPlayList/assets/144170214/166fc063-b3a3-40d2-bff6-6fe2d7bf6070)  
-- 이유: 갑자기 localhost 로그인하라는 창이 뜨고, Ctrl + F5 (프로그램을 실행)이 안 됨.
 
 ![image](https://github.com/WooRiGyeoRe/MusicPlayList/assets/144170214/312671d9-9706-4fe1-89f9-3e34e86255d7)
 ![image](https://github.com/WooRiGyeoRe/MusicPlayList/assets/144170214/8b843b56-154b-47e1-8599-79ce93356bdc)
 ![image](https://github.com/WooRiGyeoRe/MusicPlayList/assets/144170214/5edf6f5a-7cba-4ebc-95fa-16f5c5c2d318)
+- 이유: 포트번호 8080이 동시에 사용되고 있었음.
 - 해결 방법: 동시에 사용되는 포트번호 8080 찾아서 중지시킴.
   
