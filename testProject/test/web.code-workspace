@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Documents/카카오톡 받은 파일/my_sb-admin-pro"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web",
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}

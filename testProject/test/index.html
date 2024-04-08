@@ -1,0 +1,129 @@
+<!-- 기본 템플릿 틀 => html:5 + 엔터 -->
+<!-- DOCTYPE 태그 : 문서 타입을 브라우저에게 알려줌-->
+<!DOCTYPE html> 
+<html lang="ko">
+<!-- 헤드태그 : 문서에 필요한 외부파일, 설정 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스와이프 갤러리</title>
+    <link rel="stylesheet" href="../css/style.css"> 
+   <!--  <link rel="icon" href="img/favicon.icon" type="image/x-icon">  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/5eb9e7f924.js" crossorigin="anonymous"></script>
+</head> 
+<!-- 바디태그 : 브라우저에 출력 -->
+<body>
+
+    <div class="wrap">
+        <h1>GYEORE's Music Playlist<br><span>UI/UX PORTFOLIO</span></h1>
+
+        <ul class="auto">
+            <li class="btnStart">
+                <i class="fas fa-play"></i>
+            </li>
+            <li class="btnStop">
+                <i class="fas fa-pause"></i>
+            </li>
+        </ul>
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="inner">
+                  <div class="con">
+                    <img src="../img/pic1.jpg">
+                    <h2>항복</h2>
+                    <h4>마치(MRCH)</h4>
+                    <p></p>
+                  </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="inner">
+                  <div class="con">
+                    <img src="../img/pic2.jpg">
+                    <h2>Home</h2>
+                    <h4>박효신</h4>
+                    <p></p>
+                  </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="inner">
+                  <div class="con">
+                    <img src="../img/pic3.jpg">
+                    <h2>나의 사춘기에게</h2>
+                    <h4>볼빨간사춘기</h4>
+                    <p></p>
+                  </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="inner">
+                  <div class="con">
+                    <img src="../img/pic4.jpg">
+                    <h2>Merry Christmas Mr. Lawrence</h2>
+                    <h4>Ryuichi Sakamoto</h4>
+                    <p></p>
+                  </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="inner">
+                  <div class="con">
+                    <img src="../img/pic5.jpg">
+                    <h2>The Last Of The Real Ones</h2>
+                    <h4>Fall Out Boy</h4>
+                    <p></p>
+                  </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="inner">
+                  <div class="con">
+                    <img src="../img/pic6.jpg">
+                    <h2>라일락</h2>
+                    <h4>아이유(IU)</h4>
+                    <p></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".wrap", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      slidesPerView: "auto",
+      spaceBetween: 50,
+      loop: true,
+      centeredSlides: true,
+      speed: 500,
+      direction: "horizontal",
+      effect: "coverflow",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: -100,
+        depth: 400,
+        modifier: 1,
+        slideShadows: false
+      }
+    });
+  </script>
+     
+</body>
+</html>
