@@ -20,9 +20,9 @@
 
 <br>
 
-![image](https://github.com/WooRiGyeoRe/MusicPlayList/assets/144170214/56d093bd-4cd3-4cda-8354-2dbddb9ee522)
+![image](https://github.com/WooRiGyeoRe/MusicPlayList/assets/144170214/dc6f7e5e-7e20-4ce9-8a9c-a978330e0abf)
 ![image](https://github.com/WooRiGyeoRe/MusicPlayList/assets/144170214/4afbbbab-1a58-458c-8b10-bec8046ddce5)
-![image](https://github.com/WooRiGyeoRe/MusicPlayList/assets/144170214/61b9e95c-ffb5-402b-b819-da46922fe6a9)
+![image](https://github.com/WooRiGyeoRe/MusicPlayList/assets/144170214/9d4335ea-9b8a-4558-81cb-bb2abf89062a)
 
 <br>
 
